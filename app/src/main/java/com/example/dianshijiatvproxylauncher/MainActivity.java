@@ -12,7 +12,7 @@
  * the License.
  */
 
-package com.example.hdptvproxylauncher;
+package com.example.dianshijiatvproxylauncher;
 
 import android.app.Activity;
 import android.content.ComponentName;
@@ -33,8 +33,8 @@ public class MainActivity extends Activity {
         // com.lego.android.tvleanback/com.example.android.tvleanback.ui.MainActivity
         // hdpfans.com/com.hdpfans.app.ui.main.MainActivity
         // com.dianshijia.newlive/com.dianshijia.newlive.entry.SplashActivity
-        String pkg = "hdpfans.com";
-        String cls = "com.hdpfans.app.ui.main.MainActivity";
+        String pkg = "com.dianshijia.newlive";
+        String cls = "com.dianshijia.newlive/com.dianshijia.newlive.entry.SplashActivity";
         Log.i(TAG, "Launching " + pkg + "/" + cls);
         Intent intent = new Intent(Intent.ACTION_MAIN);
         intent.setComponent(new ComponentName(pkg,cls));
